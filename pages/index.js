@@ -49,11 +49,11 @@ export default function Home() {
                         stuff with <span className="font-bold text-green-500">Node</span>,{' '}
                         <span className="font-bold text-yellow-500">Javascript</span>,{' '}
                         <span className="font-bold text-blue-500">React</span>,{' '}
-                        <span className="font-bold text-green-200">Vue</span>,{' '}
+                        <span className="font-bold text-indigo-200">Vue</span>,{' '}
                         <span className="font-bold text-red-500">Rails</span>,{' '}
                         <span className="font-bold text-purple-500">PHP</span>,{' '}
-                        <span className="font-bold text-green-600">Python</span>,{' '}
-                        <span className="font-bold text-yellow-200">CSS</span> and loads more.
+                        <span className="font-bold text-green-200">Python</span>,{' '}
+                        <span className="font-bold text-pink-500">CSS</span> and loads more.
                     </p>
 
                     <p className="text-lg my-5">
@@ -69,7 +69,7 @@ export default function Home() {
                         Come say hi. We do good work.
                     </p>
 
-                    <p class="my-5">
+                    <p class="text-lg my-5">
                         I{' '}
                         <a
                             target="_blank"
@@ -84,7 +84,7 @@ export default function Home() {
                     <p className="my-8">
                         <a
                             href="mailto:warrenhaskins@gmail.com"
-                            className="bg-gray-800 rounded-full p-3 px-6 font-bold inline-block"
+                            className="bg-gray-800 rounded-full p-3 px-6 font-bold inline-block hover:bg-yellow-500 shadow transition-all duration-200 ease-in-out"
                         >
                             Need a hand? Give me a shout.
                         </a>
@@ -92,7 +92,11 @@ export default function Home() {
 
                     <ul className="flex space-x-5 text-gray-600">
                         <li>
-                            <a target="_blank" href="https://www.github.com/wurren" className="w-6 h-6 block">
+                            <a
+                                target="_blank"
+                                href="https://www.github.com/wurren"
+                                className="w-6 h-6 block transition-all duration-200 ease-in-out hover:text-yellow-500"
+                            >
                                 <span className="sr-only">Follow me on Github</span>
                                 <svg
                                     className="w-6 h-6"
@@ -105,7 +109,11 @@ export default function Home() {
                             </a>
                         </li>
                         <li>
-                            <a target="_blank" href="https://www.twitter.com/warrenhaskins" className="w-6 h-6 block">
+                            <a
+                                target="_blank"
+                                href="https://www.twitter.com/warrenhaskins"
+                                className="w-6 h-6 block transition-all duration-200 ease-in-out hover:text-yellow-500"
+                            >
                                 <span className="sr-only">Follow me on Twitter</span>
                                 <svg
                                     className="w-6 h-6"
@@ -118,7 +126,11 @@ export default function Home() {
                             </a>
                         </li>
                         <li>
-                            <a target="_blank" href="https://www.instagram.com/warrenhaskins" className="w-6 h-6 block">
+                            <a
+                                target="_blank"
+                                href="https://www.instagram.com/warrenhaskins"
+                                className="w-6 h-6 block transition-all duration-200 ease-in-out hover:text-yellow-500"
+                            >
                                 <span className="sr-only">Follow me on Instagram</span>
                                 <svg
                                     className="w-6 h-6"
