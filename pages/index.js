@@ -10,7 +10,7 @@ export default function Home() {
                 <meta name="title" content="Warren Haskins | I build internet stuff with code stuff." />
                 <meta
                     name="description"
-                    content=" My name is Warren and i've been building sites/apps/fun stuff for over 10 years."
+                    content="My name is Warren and i've been building sites/apps/fun stuff for over 10 years."
                 />
 
                 <meta property="og:type" content="website" />
@@ -18,7 +18,7 @@ export default function Home() {
                 <meta property="og:title" content="Warren Haskins | I build internet stuff with code stuff." />
                 <meta
                     property="og:description"
-                    content=" My name is Warren and i've been building sites/apps/fun stuff for over 10 years."
+                    content="My name is Warren and i've been building sites/apps/fun stuff for over 10 years."
                 />
                 <meta
                     property="og:image"
@@ -30,7 +30,7 @@ export default function Home() {
                 <meta property="twitter:title" content="Warren Haskins | I build internet stuff with code stuff." />
                 <meta
                     property="twitter:description"
-                    content=" My name is Warren and i've been building sites/apps/fun stuff for over 10 years."
+                    content="My name is Warren and i've been building sites/apps/fun stuff for over 10 years."
                 />
                 <meta
                     property="twitter:image"
@@ -66,7 +66,7 @@ export default function Home() {
                         <a className="font-bold" href="https://hustleandpraise.com">
                             Hustle & Praise.
                         </a>{' '}
-                        Come say hi.
+                        Come say hi. We do good work.
                     </p>
 
                     <p class="my-5">
@@ -85,7 +85,7 @@ export default function Home() {
                             href="mailto:warrenhaskins@gmail.com"
                             className="bg-gray-800 rounded-full p-3 px-6 font-bold inline-block"
                         >
-                            Need a hand? Give Me a Shout.
+                            Need a hand? Give me a shout.
                         </a>
                     </p>
 
