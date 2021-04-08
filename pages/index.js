@@ -20,10 +20,7 @@ export default function Home() {
                     property="og:description"
                     content="My name is Warren and i've been building sites/apps/fun stuff for over 10 years."
                 />
-                <meta
-                    property="og:image"
-                    content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
-                />
+                <meta property="og:image" content="/share.png" />
 
                 <meta property="twitter:card" content="summary_large_image" />
                 <meta property="twitter:url" content="https://metatags.io/" />
@@ -32,10 +29,7 @@ export default function Home() {
                     property="twitter:description"
                     content="My name is Warren and i've been building sites/apps/fun stuff for over 10 years."
                 />
-                <meta
-                    property="twitter:image"
-                    content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
-                ></meta>
+                <meta property="twitter:image" content="/share.png"></meta>
             </Head>
 
             <div className="min-h-screen flex items-center text-white py-16 px-5">
@@ -51,7 +45,7 @@ export default function Home() {
                         <span className="font-bold text-blue-500">React</span>,{' '}
                         <span className="font-bold text-indigo-200">Vue</span>,{' '}
                         <span className="font-bold text-red-500">Rails</span>,{' '}
-                        <span className="font-bold text-purple-500">PHP</span>,{' '}
+                        <span className="font-bold text-purple-400">PHP</span>,{' '}
                         <span className="font-bold text-green-200">Python</span>,{' '}
                         <span className="font-bold text-pink-500">CSS</span> and loads more.
                     </p>
@@ -63,7 +57,7 @@ export default function Home() {
 
                     <p className="text-lg my-5">
                         I work over at{' '}
-                        <a className="font-bold" href="https://hustleandpraise.com">
+                        <a className="font-bold" target="_blank" rel="noopener" href="https://hustleandpraise.com">
                             Hustle & Praise.
                         </a>{' '}
                         Come say hi. We do good work.
@@ -72,6 +66,7 @@ export default function Home() {
                     <p class="text-lg my-5">
                         I{' '}
                         <a
+                            rel="noopener"
                             target="_blank"
                             className="inline-block border-b border-dotted border-white border-opacity-25"
                             href="https://www.twitter.com/warrenhaskins"
@@ -93,6 +88,7 @@ export default function Home() {
                     <ul className="flex space-x-5 text-gray-600">
                         <li>
                             <a
+                                rel="noopener"
                                 target="_blank"
                                 href="https://www.github.com/wurren"
                                 className="w-6 h-6 block transition-all duration-200 ease-in-out hover:text-yellow-500"
@@ -110,6 +106,7 @@ export default function Home() {
                         </li>
                         <li>
                             <a
+                                rel="noopener"
                                 target="_blank"
                                 href="https://www.twitter.com/warrenhaskins"
                                 className="w-6 h-6 block transition-all duration-200 ease-in-out hover:text-yellow-500"
@@ -127,6 +124,7 @@ export default function Home() {
                         </li>
                         <li>
                             <a
+                                rel="noopener"
                                 target="_blank"
                                 href="https://www.instagram.com/warrenhaskins"
                                 className="w-6 h-6 block transition-all duration-200 ease-in-out hover:text-yellow-500"
