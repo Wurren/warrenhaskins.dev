@@ -77,7 +77,8 @@ export default function Home() {
                             href="https://www.twitter.com/warrenhaskins"
                         >
                             tweet sometimes
-                        </a>{' '}
+                        </a>
+                        .
                     </p>
 
                     <p className="my-8">
