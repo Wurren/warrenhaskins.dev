@@ -17,7 +17,7 @@ class MyDocument extends Document {
                     <meta name="title" content="Warren Haskins | I build internet stuff with code stuff." />
                     <meta
                         name="description"
-                        content="My name is Warren and i've been building sites/apps/fun stuff for over 10 years with Node, Javascript, React, Vue, Rails, PHP, Python, CSS and loads more."
+                        content="My name is Warren and Ive been building sites/apps/fun stuff for over 10 years with Node, Javascript, React, Vue, Rails, PHP, Python, CSS and loads more."
                     />
 
                     <meta property="og:type" content="website" />
@@ -25,7 +25,7 @@ class MyDocument extends Document {
                     <meta property="og:title" content="Warren Haskins | I build internet stuff with code stuff." />
                     <meta
                         property="og:description"
-                        content="My name is Warren and i've been building sites/apps/fun stuff for over 10 years with Node, Javascript, React, Vue, Rails, PHP, Python, CSS and loads more."
+                        content="My name is Warren and Ive been building sites/apps/fun stuff for over 10 years with Node, Javascript, React, Vue, Rails, PHP, Python, CSS and loads more."
                     />
                     <meta property="og:image" content="/share.png" />
 
@@ -34,7 +34,7 @@ class MyDocument extends Document {
                     <meta property="twitter:title" content="Warren Haskins | I build internet stuff with code stuff." />
                     <meta
                         property="twitter:description"
-                        content="My name is Warren and i've been building sites/apps/fun stuff for over 10 years with Node, Javascript, React, Vue, Rails, PHP, Python, CSS and loads more."
+                        content="My name is Warren and Ive been building sites/apps/fun stuff for over 10 years with Node, Javascript, React, Vue, Rails, PHP, Python, CSS and loads more."
                     />
                     <meta property="twitter:image" content="/share.png"></meta>
 
