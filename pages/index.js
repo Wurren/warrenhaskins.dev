@@ -3,42 +3,13 @@ import Head from 'next/head';
 export default function Home() {
     return (
         <>
-            <Head>
-                <link rel="icon" href="/favicon.png" />
-
-                <title>Warren Haskins | I build internet stuff with code stuff.</title>
-                <meta name="title" content="Warren Haskins | I build internet stuff with code stuff." />
-                <meta
-                    name="description"
-                    content="My name is Warren and i've been building sites/apps/fun stuff for over 10 years."
-                />
-
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://metatags.io/" />
-                <meta property="og:title" content="Warren Haskins | I build internet stuff with code stuff." />
-                <meta
-                    property="og:description"
-                    content="My name is Warren and i've been building sites/apps/fun stuff for over 10 years."
-                />
-                <meta property="og:image" content="/share.png" />
-
-                <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://metatags.io/" />
-                <meta property="twitter:title" content="Warren Haskins | I build internet stuff with code stuff." />
-                <meta
-                    property="twitter:description"
-                    content="My name is Warren and i've been building sites/apps/fun stuff for over 10 years."
-                />
-                <meta property="twitter:image" content="/share.png"></meta>
-            </Head>
-
-            <div className="min-h-screen flex items-center text-white py-16 px-5">
+            <div className="flex items-center min-h-screen px-5 py-16 text-white">
                 <div className="max-w-xl mx-auto">
                     <div className="text-5xl">👋</div>
 
-                    <h1 className="font-bold text-4xl md:text-5xl my-5">Hi. I build internet stuff with code stuff.</h1>
+                    <h1 className="my-5 text-4xl font-bold md:text-5xl">Hi. I build internet stuff with code stuff.</h1>
 
-                    <p className="text-lg my-5">
+                    <p className="my-5 text-lg">
                         My name is Warren and i've been building sites/apps/fun stuff for over 10 years. I've built
                         stuff with <span className="font-bold text-green-500">Node</span>,{' '}
                         <span className="font-bold text-yellow-500">Javascript</span>,{' '}
@@ -50,12 +21,12 @@ export default function Home() {
                         <span className="font-bold text-pink-500">CSS</span> and loads more.
                     </p>
 
-                    <p className="text-lg my-5">
+                    <p className="my-5 text-lg">
                         Over the years i've built small super-fast brochure sites for large brands, huge complex
                         ecommerce sites and built and scaled web apps serving tens of thousands of users.
                     </p>
 
-                    <p className="text-lg my-5">
+                    <p className="my-5 text-lg">
                         I work over at{' '}
                         <a className="font-bold" target="_blank" rel="noopener" href="https://hustleandpraise.com">
                             Hustle & Praise.
@@ -68,7 +39,7 @@ export default function Home() {
                         <a
                             rel="noopener"
                             target="_blank"
-                            className="inline-block border-b border-dotted border-white border-opacity-25"
+                            className="inline-block border-b border-white border-opacity-25 border-dotted"
                             href="https://www.twitter.com/warrenhaskins"
                         >
                             tweet sometimes
@@ -79,7 +50,7 @@ export default function Home() {
                     <p className="my-8">
                         <a
                             href="mailto:warrenhaskins@gmail.com"
-                            className="bg-gray-800 rounded-full p-3 px-6 font-bold inline-block hover:bg-yellow-500 shadow transition-all duration-200 ease-in-out"
+                            className="inline-block p-3 px-6 font-bold transition-all duration-200 ease-in-out bg-gray-800 rounded-full shadow hover:bg-yellow-500"
                         >
                             Need a hand? Give me a shout.
                         </a>
@@ -91,7 +62,7 @@ export default function Home() {
                                 rel="noopener"
                                 target="_blank"
                                 href="https://www.github.com/wurren"
-                                className="w-6 h-6 block transition-all duration-200 ease-in-out hover:text-yellow-500"
+                                className="block w-6 h-6 transition-all duration-200 ease-in-out hover:text-yellow-500"
                             >
                                 <span className="sr-only">Follow me on Github</span>
                                 <svg
@@ -109,7 +80,7 @@ export default function Home() {
                                 rel="noopener"
                                 target="_blank"
                                 href="https://www.twitter.com/warrenhaskins"
-                                className="w-6 h-6 block transition-all duration-200 ease-in-out hover:text-yellow-500"
+                                className="block w-6 h-6 transition-all duration-200 ease-in-out hover:text-yellow-500"
                             >
                                 <span className="sr-only">Follow me on Twitter</span>
                                 <svg
@@ -127,7 +98,7 @@ export default function Home() {
                                 rel="noopener"
                                 target="_blank"
                                 href="https://www.instagram.com/warrenhaskins"
-                                className="w-6 h-6 block transition-all duration-200 ease-in-out hover:text-yellow-500"
+                                className="block w-6 h-6 transition-all duration-200 ease-in-out hover:text-yellow-500"
                             >
                                 <span className="sr-only">Follow me on Instagram</span>
                                 <svg
