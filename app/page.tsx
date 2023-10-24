@@ -3,30 +3,24 @@ import Head from 'next/head';
 export default function Home() {
     return (
         <>
-            <div className="flex items-center min-h-screen px-5 py-16 text-white">
-                <div className="max-w-xl mx-auto">
-                    <div className="text-5xl">👋</div>
+            <div className="flex items-center min-h-screen p-5 lg:p-12 xl:p-16 2xl:p-32 text-white">
+                <div className="max-w-4xl">
+                    <h1 className="my-5 text-2xl font-bold md:text-5xl tracking-tight text-pretty">
+                        Hi. I've been building sites/apps/fun stuff for over 10 years. From small super-fast brochure
+                        sites for large brands, ecommerce sites and built web apps serving tens of thousands of users.
+                    </h1>
 
-                    <h1 className="my-5 text-4xl font-bold md:text-5xl">Hi. I build internet stuff with code stuff.</h1>
-
-                    <p className="my-5 text-lg">
-                        My name is Warren and i've been building sites/apps/fun stuff for over 10 years. I've built
-                        stuff with <span className="font-bold text-green-500">Node</span>,{' '}
-                        <span className="font-bold text-yellow-500">Javascript</span>,{' '}
-                        <span className="font-bold text-blue-500">React</span>,{' '}
-                        <span className="font-bold text-indigo-200">Vue</span>,{' '}
-                        <span className="font-bold text-red-500">Rails</span>,{' '}
+                    <p className="my-5 md:text-lg">
+                        I build with <span className="font-bold text-green-400">Node</span>,{' '}
+                        <span className="font-bold text-yellow-400">Javascript</span>,{' '}
+                        <span className="font-bold text-blue-400">Typescript</span>,{' '}
+                        <span className="font-bold text-cyan-400">React</span>,{' '}
+                        <span className="font-bold text-red-400">Rails</span>,{' '}
                         <span className="font-bold text-purple-400">PHP</span>,{' '}
-                        <span className="font-bold text-green-200">Python</span>,{' '}
-                        <span className="font-bold text-pink-500">CSS</span> and loads more.
+                        <span className="font-bold text-fuchsia-400">CSS</span> and loads more.
                     </p>
 
-                    <p className="my-5 text-lg">
-                        Over the years i've built small super-fast brochure sites for large brands, huge complex
-                        ecommerce sites and built and scaled web apps serving tens of thousands of users.
-                    </p>
-
-                    <p className="my-5 text-lg">
+                    <p className="my-5 md:text-lg">
                         I work over at{' '}
                         <a className="font-bold" target="_blank" rel="noopener" href="https://hustleandpraise.com">
                             Hustle & Praise.
@@ -34,7 +28,7 @@ export default function Home() {
                         Come say hi. We do good work.
                     </p>
 
-                    <p className="text-lg my-5">
+                    <p className="md:text-lg my-5">
                         I{' '}
                         <a
                             rel="noopener"
@@ -50,13 +44,13 @@ export default function Home() {
                     <p className="my-8">
                         <a
                             href="mailto:warrenhaskins@gmail.com"
-                            className="inline-block p-3 px-6 font-bold transition-all duration-200 ease-in-out bg-gray-800 rounded-full shadow hover:bg-yellow-500"
+                            className="inline-block p-3 px-6 transition-all duration-200 ease-in-out bg-white rounded-full shadow hover:bg-gray-300 text-black font-medium"
                         >
-                            Need a hand? Give me a shout.
+                            Need a hand? Give me a shout. &rarr;
                         </a>
                     </p>
 
-                    <ul className="flex space-x-5 text-gray-600">
+                    <ul className="flex space-x-5 text-gray-100">
                         <li>
                             <a
                                 rel="noopener"
