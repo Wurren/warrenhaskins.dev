@@ -34,7 +34,7 @@ export default function Home() {
                         Come say hi. We do good work.
                     </p>
 
-                    <p class="text-lg my-5">
+                    <p className="text-lg my-5">
                         I{' '}
                         <a
                             rel="noopener"
