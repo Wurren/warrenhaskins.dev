@@ -3,11 +3,11 @@ import Head from 'next/head';
 export default function Home() {
     return (
         <>
-            <div className="flex items-center min-h-screen p-5 lg:p-12 xl:p-16 2xl:p-32 text-white">
+            <div className="flex items-center min-h-dscreen md:min-h-screen p-5 lg:p-12 xl:p-16 2xl:p-32 text-white">
                 <div className="max-w-4xl">
-                    <h1 className="my-5 text-2xl font-bold md:text-5xl tracking-tight text-pretty">
-                        Hi. I've been building sites/apps/fun stuff for over 10 years. From small super-fast brochure
-                        sites for large brands, ecommerce sites and built web apps serving tens of thousands of users.
+                    <h1 className="my-5 text-2xl font-bold md:text-4xl tracking-tight text-pretty">
+                        Hi. I've been building sites/apps/fun stuff for over 12 years. From small super-fast brochure
+                        sites for large brands, giant ecommerce sites and web apps serving tens of thousands of users.
                     </h1>
 
                     <p className="my-5 md:text-lg">
@@ -15,6 +15,7 @@ export default function Home() {
                         <span className="font-bold text-yellow-400">Javascript</span>,{' '}
                         <span className="font-bold text-blue-400">Typescript</span>,{' '}
                         <span className="font-bold text-cyan-400">React</span>,{' '}
+                        <span className="font-bold text-orange-400">Ruby</span>,{' '}
                         <span className="font-bold text-red-400">Rails</span>,{' '}
                         <span className="font-bold text-purple-400">PHP</span>,{' '}
                         <span className="font-bold text-fuchsia-400">CSS</span> and loads more.
@@ -22,7 +23,12 @@ export default function Home() {
 
                     <p className="my-5 md:text-lg">
                         I work over at{' '}
-                        <a className="font-bold" target="_blank" rel="noopener" href="https://hustleandpraise.com">
+                        <a
+                            className="font-medium border-b border-white border-dotted border-opacity-25"
+                            target="_blank"
+                            rel="noopener"
+                            href="https://hustleandpraise.com"
+                        >
                             Hustle & Praise.
                         </a>{' '}
                         Come say hi. We do good work.

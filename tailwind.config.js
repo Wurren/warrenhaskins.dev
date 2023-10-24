@@ -13,6 +13,9 @@ module.exports = {
             fontFamily: {
                 sans: ['var(--font-inter)'],
             },
+            height: {
+                'min-h-dscreen': '100dvh',
+            },
         },
     },
     plugins: [],
