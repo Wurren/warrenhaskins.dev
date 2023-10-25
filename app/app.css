@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .text-pretty {
-    text-wrap: pretty;
+    text-wrap: balance;
 }
