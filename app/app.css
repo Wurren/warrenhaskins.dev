@@ -5,3 +5,17 @@
 .text-pretty {
     text-wrap: balance;
 }
+
+html,
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.shadow-hard {
+    box-shadow: 5px 5px 0px rgba(255, 255, 255, 1);
+}
+
+.shadow-hard:hover {
+    box-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
+}

@@ -3,22 +3,22 @@ import Head from 'next/head';
 export default function Home() {
     return (
         <>
-            <div className="flex items-center min-h-dscreen md:min-h-screen p-5 lg:p-12 xl:p-16 2xl:p-32 text-white">
+            <div className="flex items-center min-h-dscreen md:min-h-screen p-5 lg:p-12 xl:p-32 2xl:p-44 text-white">
                 <div className="max-w-4xl">
                     <h1 className="my-5 text-2xl font-bold md:text-4xl tracking-tight text-pretty">
                         Hi. I've been building sites/apps/fun stuff for over 12 years. From small super-fast brochure
                         sites for large brands, giant ecommerce sites and web apps serving tens of thousands of users.
                     </h1>
 
-                    <p className="my-5 md:text-lg">
-                        I build with <span className="font-bold text-green-400">Node</span>,{' '}
-                        <span className="font-bold text-yellow-400">Javascript</span>,{' '}
-                        <span className="font-bold text-blue-400">Typescript</span>,{' '}
-                        <span className="font-bold text-cyan-400">React</span>,{' '}
-                        <span className="font-bold text-orange-400">Ruby</span>,{' '}
-                        <span className="font-bold text-red-400">Rails</span>,{' '}
-                        <span className="font-bold text-purple-400">PHP</span>,{' '}
-                        <span className="font-bold text-fuchsia-400">CSS</span> and loads more.
+                    <p className="my-5 md:text-lg font-medium">
+                        I build with <span className="font-bold-o text-green-400">Node</span>,{' '}
+                        <span className="font-bold-o text-yellow-400">Javascript</span>,{' '}
+                        <span className="font-bold-o text-blue-400">Typescript</span>,{' '}
+                        <span className="font-bold-o text-cyan-400">React</span>,{' '}
+                        <span className="font-bold-o text-orange-400">Ruby</span>,{' '}
+                        <span className="font-bold-o text-red-400">Rails</span>,{' '}
+                        <span className="font-bold-o text-purple-400">PHP</span>,{' '}
+                        <span className="font-bold-o text-fuchsia-400">CSS</span> and loads more.
                     </p>
 
                     <p className="my-5 md:text-lg">
@@ -50,9 +50,17 @@ export default function Home() {
                     <p className="my-8">
                         <a
                             href="mailto:warrenhaskins@gmail.com"
-                            className="inline-block p-3 px-6 transition-all duration-200 ease-in-out bg-white rounded-full shadow hover:bg-gray-300 text-black font-medium"
+                            className="shadow-hard inline-flex space-x-4 p-3 px-6 transition-all duration-200 ease-in-out border border-white text-white rounded-full shadow hover:bg-gray-300font-medium"
                         >
-                            Need a hand? Give me a shout. &rarr;
+                            <span>Need a hand? Give me a shout.</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.7 12.7" fill="#fff" className="w-4">
+                                <path
+                                    d="M-166.158 119.275v1.059h1.059v-1.059zm1.059 1.059v1.058h1.058v-1.058zm1.058 1.058v1.06h1.059v-1.06zm1.059 1.06v1.057h1.058v-1.058zm1.058 1.057v1.06h1.06v-1.06zm1.06 1.06v1.056h1.055v-1.057zm0 1.056h-1.06v1.058h1.06zm-1.06 1.058h-1.058v1.06h1.058zm-1.058 1.06h-1.059v1.058h1.059zm-1.059 1.058h-1.058v1.058h1.058zm-1.058 1.058h-1.06v1.059h1.06z"
+                                    color="#ffffff"
+                                    overflow="visible"
+                                    transform="translate(169.333 -118.746)"
+                                ></path>
+                            </svg>
                         </a>
                     </p>
 
@@ -66,7 +74,7 @@ export default function Home() {
                             >
                                 <span className="sr-only">Follow me on Github</span>
                                 <svg
-                                    className="w-6 h-6"
+                                    className="w-5 h-5"
                                     fill="currentColor"
                                     viewBox="0 0 24 24"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +92,7 @@ export default function Home() {
                             >
                                 <span className="sr-only">Follow me on Twitter</span>
                                 <svg
-                                    className="w-6 h-6"
+                                    className="w-5 h-5"
                                     fill="currentColor"
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 24 24"
@@ -102,7 +110,7 @@ export default function Home() {
                             >
                                 <span className="sr-only">Follow me on Instagram</span>
                                 <svg
-                                    className="w-6 h-6"
+                                    className="w-5 h-5"
                                     viewBox="0 0 24 24"
                                     fill="currentColor"
                                     xmlns="http://www.w3.org/2000/svg"
